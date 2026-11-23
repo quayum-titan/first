@@ -1,0 +1,76 @@
+.first {
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+
+.first:hover {
+    background-color: blueviolet;
+}
+
+.second {
+    background-color: plum;
+    width: 200px;
+    height: 200px;
+    transition-property: transform,background-color,width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 5s;
+}
+
+.second:hover {
+    transform: rotate(90deg);
+    background-color: aquamarine;
+    width: 400px;
+}
+
+.third {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    animation-name: myBox;
+    animation-duration: 20s;
+}
+
+@keyframes myBox{
+    from {
+        background-color: darkslategray;
+    }
+    to {
+        background-color: blanchedalmond;
+    }
+    
+}
+
+.fourth {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    animation-name: newBox;
+    animation-duration: 10s;
+    animation-delay: 10s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes newBox {
+    0% {
+        background-color: brown;
+    }
+    25% {
+        background-color: cornflowerblue;
+    }
+    50% {
+        background-color: darkmagenta;
+    }
+    75%{
+        background-color: bisque;
+    }
+    100%{
+        background-color: yellow;
+    }
+    
+}

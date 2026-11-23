@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+}
+body {
+    background-color: #201313;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100vh;
+}
+
+.middle a {
+
+}
